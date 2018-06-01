@@ -1,0 +1,35 @@
+// Used in the Test Webpage
+.header {
+  position: absolute;
+  left: 50%;
+  padding-top: 10%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+h1, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+h3 {
+  color: lighten(#000, 40%);
+}
+
+// Used to test if Autoprefixer is working as it should 💪
+a {
+  display:     grid;
+  transition: all 0.4s ease-in-out;
+  transform: rotate(30deg);
+  transform: translate3d(0,0,1);
+}
+
+@theGoodThings: ~".test1, .test2, .food, .beer, .sleep, .javascript";
+
+@{theGoodThings} {
+  font-weight: bold;
+  display: flex;
+  background: linear-gradient(#e98a00, #f5aa2f);
+}

@@ -1,0 +1,39 @@
+.header {
+  position: absolute;
+  left: 50%;
+  padding-top: 10%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 80%;
+}
+h1,
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-weight: bold;
+}
+h3 {
+  color: #666666;
+}
+a {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-transform: translate3d(0, 0, 1);
+          transform: translate3d(0, 0, 1);
+}
+.test1, .test2, .food, .beer, .sleep, .javascript {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-linear-gradient(#e98a00, #f5aa2f);
+  background: linear-gradient(#e98a00, #f5aa2f);
+}
